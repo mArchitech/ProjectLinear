@@ -1,0 +1,53 @@
+#Features written in the document are only available if organization has Plus or Standard plan of the Linear!!
+
+Configure email domain
+Go to Settings ➡  Workspace ➡  Members and then add the domain. 
+
+Delete workspace
+Under settings ➡ Remove workspace (This is irreversible).
+
+SSO login 
+Under Settings ➡ Workspace ➡ Members and then select which authentication methods to allow. 
+
+Removing team members or adding
+Under Members in team settings ➡ Remove member or add a member
+.
+
+Add/remove members in private teams
+Owners of a private team and workspace admins can go to 
+Team settings ➡  Members to invite other workspace members to the team or 
+promote an existing team member to team owner.
+
+Opening audit logs
+Only workspace administrators can access, given the sensitive nature of the information. 
+Settings page ➡ Workspace settings
+
+Searching audit logs via GraphQL API
+# Get login events for an user
+query {
+	auditEntries(filter: {type: {eq: "login"}, actor: {email: {eq: "Exampleuser@company.app"}}}) {
+	  nodes {
+	    id
+	    type
+	    createdAt
+	    actor {
+	      email
+	    }
+			ip
+	    metadata
+	  }
+	  pageInfo {
+	    endCursor
+	    hasNextPage
+	  }
+	}
+}
+
+Integration setup between Linear and Slack 
+Go to Settings ➡ Workspace ➡ Integrations ➡ Slack to connect your Slack account to Linear. (Only Slack admin has access)
+Once connected, anyone with a Linear account will be able to do the following:
+-Create Linear issues from Slack with the /linear command or message dropdowns
+-View expandable links in Slack that show key issue, comment, or project details
+-Take actions from Linear links shared in your Slack workspace
+-Enable personal Slack notifications
+-Send team and project updates to dedicated Slack channels
