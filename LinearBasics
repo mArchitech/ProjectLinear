@@ -1,0 +1,75 @@
+#######Linear Basics#######
+
+Workspace setup
+
+Add workspace
+Click on your profile to go to Settings ➡ Workspace
+Open the workspace switcher ➡ add accounts
+
+Add members
+Settings and go to Workspace ➡ Members ➡ Add Member
+
+Importing issues
+go to Settings > Workspace > Import/Export
+
+Add teams
+Open teams and related views in the sidebar
+Hover over a team name in the sidebar and click on the more menu (...)
+Go to team settings by clicking on your profile dropdown menu, selecting Settings, then scrolling to the bottom of the left sidebar to select a specific team's setting
+Add new teams from the lefthand sidebar in settings
+
+Adding private teams
+go to Team settings > General and update privacy settings
+To add or manage members to your private team, go to Team Settings > Members
+
+Workflow setup
+Click on your profile and select Settings to or hover over the team name and select Team settings, 
+then go to Workflow to add, edit, remove, and set a default status, enable and configure auto-close and auto-archive.'
+
+Account setup
+Settings > Account > Preferences
+
+Creating an issue
+Click the New Issue button to create an issue
+Click outside the new issue modal to save a draft, then click the New Issue button again to complete and save it
+
+Parent/Child issue setup
+In issue view, add sub-issues from the parent issue by clicking Add sub-issue at the bottom of the description
+From lists or boards, right-click over selected issue(s) and choose Add sub-issue or Set parent issue
+
+Creating issue templates
+Click Template button in new issue modal or template icon from full issue view
+Change team when creating issue to access templates
+Select profile to go to Settings ➡ Team Settings ➡ Templates to create or edit templates
+
+Projects Setup
+Navigate to your workspace projects under Roadmap and your team's projects under Projects in the sidebar
+Click on the project sidebar button in the top right corner to open or close the project details sidebar
+Select one or multiple issues and right-click to add to a project.
+Share projects with other teams by selecting the Add team button at the top of project views
+
+Roadmap setup
+Select Roadmap from the sidebar. Once enabled, it will show up under Views.
+Click on the profile to go to Settings ➡ Workspace ➡ Roadmap to enable Roadmap
+
+Add milestones
+Click on the profile to go to Settings ➡ Workspace ➡ Roadmap to enable Roadmap
+Select Roadmap from the sidebar and then click on Edit Milestones in the top right
+
+Show Project details
+Click on the sidebar button in the top right corner to open or close the project details sidebar
+
+Add Project graphs
+Click on the sidebar button in the top right corner to open the project details sidebar
+Select Graph
+
+Show Project documents
+Open the project details sidebar to view all documents. They'll show up under resources.
+Under resources, click the + button to create a document or click on a document to view it.
+Select the more menu (...) to take actions once inside of a document.
+
+Add a cycle/edit a cycle
+Right-click over selected issues to add or update their cycle
+Under your team views, navigate to Active to view the current cycle, Cycles to view current and planned cycles, and Archive to view archived cycles.
+Select the sidebar button in the top right to open and close it when in individual cycle views
+Click on your avatar or hover over the team name to go to Settings ➡ Team settings ➡ Cycles to configure settings
